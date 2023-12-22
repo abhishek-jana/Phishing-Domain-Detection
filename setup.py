@@ -21,7 +21,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     __version__ = "0.0.0"
     REPO_NAME = "Phishing-Domain-Detection"
     AUTHOR_USER_NAME = "abhishek-jana"
-    SRC_REPO = "phishing_domain"
+    SRC_REPO = "phishing"
     AUTHOR_EMAIL = "abhishekjana6@gmail.com"
     DESCRIPTION="A solution that should able to predict whether the domain is real or fake.",
 
@@ -42,6 +42,7 @@ with open("README.md", "r", encoding="utf-8") as f:
         project_urls={
             "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
         },
-        packages=find_packages(),
+        package_dir={"": "src"},
+        packages=setuptools.find_packages(where="src"),
         install_requires=get_requirements_list()
         )
