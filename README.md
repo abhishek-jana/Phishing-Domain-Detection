@@ -6,10 +6,9 @@ A solution that should able to predict whether the domain is real or fake.
 ```
 https://data.mendeley.com/datasets/72ptz43s9v/1
 
-```
-<<<<<<< HEAD
+link: https://prod-dcd-datasets-cache-zipfiles.s3.eu-west-1.amazonaws.com/72ptz43s9v-1.zip
 
-# Chicken-Disease-Classification
+```
 
 
 ## Workflows
@@ -32,6 +31,4 @@ Project Specific worflow:
 7. Update the pipeline
 8. Update the main.py
 9. Uodate the dvc.yaml
-=======
-link: https://prod-dcd-datasets-cache-zipfiles.s3.eu-west-1.amazonaws.com/72ptz43s9v-1.zip
->>>>>>> db50ad017c5199b6350b87a99df00aed15f9fa6e
+
