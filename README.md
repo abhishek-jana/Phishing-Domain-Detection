@@ -1,10 +1,12 @@
-# Network-Security-with-ML
-Building a Predictive Model to Classify Network Security Attacks.
+# Phishing-Domain-Detection
+A solution that should able to predict whether the domain is real or fake.
 
 ## Dataset
 
 ```
-https://www.unb.ca/cic/datasets/nsl.html
+https://data.mendeley.com/datasets/72ptz43s9v/1
+
+link: https://prod-dcd-datasets-cache-zipfiles.s3.eu-west-1.amazonaws.com/72ptz43s9v-1.zip
 
 ```
 

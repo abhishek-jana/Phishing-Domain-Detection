@@ -6,7 +6,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "network"  # name specific name to your project
+project_name = "phishing"  # name specific name to your project
 
 list_of_files = [
     # since it's an empty folder we need a file to commit to github
