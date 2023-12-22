@@ -1,6 +1,6 @@
-from phishing.components.data_ingestion import DataIngestion
-from phishing.config.configuration import ConfigurationManager
-from phishing.logging import logger
+from network.components.data_ingestion import DataIngestion
+from network.config.configuration import ConfigurationManager
+from network.logging import logger
 
 STAGE_NAME = "Data ingestion stage"
 

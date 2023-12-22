@@ -1,6 +1,6 @@
-from phishing.constants import *
-from phishing.utils.common import read_yaml, create_directories
-from phishing.entity.config_entity import DataIngestionConfig#,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig, ModelEvaluationConfig
+from network.constants import *
+from network.utils.common import read_yaml, create_directories
+from network.entity.config_entity import DataIngestionConfig#,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig, ModelEvaluationConfig
 
 
 class ConfigurationManager:

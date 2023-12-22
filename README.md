@@ -1,4 +1,4 @@
-# Phishing-Domain-Detection
+Network-Security-with-ML
 A solution that should able to predict whether the domain is real or fake.
 
 ## Dataset

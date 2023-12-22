@@ -1,10 +1,10 @@
 import os
 import urllib.request as request
 import zipfile
-from phishing.logging import logger
-from phishing.utils.common import get_size
+from network.logging import logger
+from network.utils.common import get_size
 from pathlib import Path
-from phishing.entity.config_entity import DataIngestionConfig
+from network.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):

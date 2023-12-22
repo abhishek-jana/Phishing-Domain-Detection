@@ -18,4 +18,4 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("phishingLogger")  # naming my log
+logger = logging.getLogger("networkLogger")  # naming my log

@@ -19,11 +19,11 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
     __version__ = "0.0.0"
-    REPO_NAME = "Phishing-Domain-Detection"
+    REPO_NAME = "Network-Security-with-ML"
     AUTHOR_USER_NAME = "abhishek-jana"
-    SRC_REPO = "phishing"
+    SRC_REPO = "network"
     AUTHOR_EMAIL = "abhishekjana6@gmail.com"
-    DESCRIPTION="A solution that should able to predict whether the domain is real or fake.",
+    DESCRIPTION="A solution that should able to predictnetwork security attacks.",
 
     REQUIREMENT_FILE_NAME = "requirements.txt"
 
